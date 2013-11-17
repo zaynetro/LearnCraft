@@ -1,0 +1,181 @@
+﻿body {
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	font-size: 15px;
+	font-family: arial, sans-serif;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+audio {
+	visibility: hidden;
+}
+
+.mainpage h1 {
+	margin: 20px 0 10px 20px;
+}
+
+.mainpage a {
+	display: block;
+	text-align: center;
+	width: 200px;
+	padding: 7px 0;
+	font-size: 18px;
+	margin: 0 auto;
+	background-color: #ddd;
+	text-decoration: none;
+}
+
+.mainpage a:hover {
+	background-color: #bbb;
+}
+
+.header {
+	padding: 10px 15px;
+	font-size: 15px;
+	background-color: #eee;
+}
+
+.learningblock {
+	margin-bottom: 30px;
+}
+
+.picturepanel {
+	float: left;
+	width: 700px;
+}
+
+#picture {
+	max-width: 700px;
+}
+
+.infopanel {
+	float: left;
+	width: 300px;
+	font-size: 18px;
+	padding: 30px 0 0;
+}
+
+@media screen and (max-device-width: 1024px) {
+	.picturepanel {
+		float: none;
+	}
+
+	.infopanel {
+		float: none;
+		margin: 20px auto;
+		padding: 0;
+	}
+}
+
+.infopanel #answer {
+	font-size: 16px;
+	width: 100px;
+}
+
+.infopanel .submit {
+	margin: 20px 0 0;
+}
+
+a#submitbutton {
+	display: block;
+	padding: 7px 0;
+	text-align: center;
+	text-decoration: none;
+	background-color: #ccc;
+}
+
+a#submitbutton:hover {
+	background-color: #aaa;
+}
+
+#results {
+	display: none;
+}
+
+#results h3 {
+	text-align: center;
+	margin: 10px 0 3px;
+	padding: 0;
+}
+
+#results .mistakescount {
+	font-size: 15px;
+}
+
+#mistakes, #corrects {
+	margin: 10px 0 0;
+}
+
+.mistakeitem {
+	margin: 10px 0;
+	padding: 5px 0;
+}
+
+#mistakes .mistakeitem {
+	border-left: 10px solid #FF2424;
+}
+
+#correct .mistakeitem {
+	border-left: 10px solid #008A1C;
+}
+
+.mistakeimg {
+	float: left;
+	width: 150px;
+	margin: 0 15px 0 10px;
+}
+
+.mistakeimg img {
+	width: 150px;
+}
+
+.mistakequestion {
+	font-size: 18px;
+	margin-bottom: 4px;
+}
+
+.mistakequestion a {
+	padding: 0 5px;
+	text-decoration: underline;
+}
+
+.mistakequestion a:hover {
+	text-decoration: none;
+}
+
+.mistakeanswer span {
+	font-size: 16px;
+}
+
+.klear {
+	clear: both;
+}
+
+#nomore {
+	display: none;
+}
+
+a.newgamelink {
+	display: block;
+	width: 100px;
+	text-align: center;
+	padding: 5px 0;
+	font-size: 16px;
+	background-color: #43C45D;
+	border: 1px solid #167829;
+	text-decoration: none;
+	margin: 3px;
+}
+
+a.newgamelink:hover {
+	background-color: #67E080;
+}

@@ -55,6 +55,8 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="audio\nosound.mp3" />
+    <Content Include="audio\test.mp3" />
     <Content Include="css\template.css" />
     <Content Include="default.html" />
     <Content Include="images\broom.jpg" />
