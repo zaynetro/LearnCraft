@@ -86,11 +86,11 @@
     <Content Include="audio\tree.mp3" />
     <Content Include="css\template.css" />
     <Content Include="default.html" />
-    <Content Include="design\board.jpg" />
+    <Content Include="design\cloud.png" />
     <Content Include="design\listening.png" />
     <Content Include="design\microphone.png" />
-    <Content Include="design\stop.png" />
-    <Content Include="design\whiteboard.jpg" />
+    <Content Include="design\rollovercloud.png" />
+    <Content Include="design\sky.jpg" />
     <Content Include="images\apple.jpg" />
     <Content Include="images\bee.jpg" />
     <Content Include="images\bird.jpg" />

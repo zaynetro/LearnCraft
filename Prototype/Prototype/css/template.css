@@ -28,60 +28,60 @@ audio {
 .mainpage {
     width: 100%;
     height: 100%;
-    background: url("/design/whiteboard.jpg") center center;
+    background: #2D648B url("/design/sky.jpg") no-repeat bottom left;
 }
 
-.mainpage .container {
-    width: 300px;
-    margin: 50px auto;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-}
-
-.mainpage .insetblock {
-    background-color: rgba(255, 255, 255, 1.0);
+.mainheader {
+    padding: 50px 0;
+    text-align: center;
 }
 
 .mainpage h1 {
-	text-align: center;
-	margin: 0 0 10px;
+    color: #fff;
+    font: bold 100px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+
+.mainpage .container {
 }
 
 .mainpage a {
 	display: block;
     cursor: pointer;
 	text-align: center;
-	width: 200px;
-	padding: 7px 0;
-	font-size: 18px;
-	margin: 20px auto;
-	box-shadow: inset 0px 1px 0px 0px #f9eca0;
-	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0c911), color-stop(1, #f2ab1e) );
-	background-color: #f0c911;
-	border-top-left-radius: 25px;
-	border-top-right-radius: 0px;
-	border-bottom-right-radius: 25px;
-	border-bottom-left-radius: 0px;
-	border: 4px solid #e65f44;
-	color: #c92200;
-	font-size: 19px;
-	font-weight: bold;
-	line-height: 52px;
-	width: 200px;
-	text-decoration: none;
-	text-align: center;
-	text-shadow: 1px 3px 0px #ded17c;
+	width: 303px;
+    margin: 0 auto;
+	padding: 67px 0 87px;
+    background: url("/design/cloud.png") no-repeat top center;
+	font-size: 25px;
+    animation: fly 100s linear infinite;
+    transform: translate(0, 0);
 }
 
-.mainpage a:nth-child(2) {
-	border-top-left-radius:0px;
-	border-top-right-radius:25px;
-	border-bottom-right-radius:0px;
-	border-bottom-left-radius:25px;
+@keyframes fly {
+    0% { transform: translate(0, 0); }
+    20% { transform: translate(300px, 50px); }
+    40% { transform: translate(0px, 200px); }
+    60% { transform: translate(-300px, 100px); }
+    80% { transform: translate(-100px, -10px); }
+  100% { transform: translate(0, 0); }
 }
 
 .mainpage a:hover {
-	background-color: #f2ab1e;
+    animation-play-state: paused;
+    background-image: url("/design/rollovercloud.png");
 }
 
 .mainpage a:active {
