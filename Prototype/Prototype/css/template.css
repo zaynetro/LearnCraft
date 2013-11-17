@@ -7,6 +7,7 @@
 }
 
 a {
+    cursor: pointer;
 	color: #000;
 	text-decoration: none;
 }
@@ -44,17 +45,14 @@ audio {
 	background-color: #eee;
 }
 
-.learningblock {
-	margin-bottom: 30px;
-}
-
 .picturepanel {
 	float: left;
 	width: 700px;
+	text-align: center;
 }
 
 #picture {
-	max-width: 700px;
+	padding: 50px 0;
 }
 
 .infopanel {
