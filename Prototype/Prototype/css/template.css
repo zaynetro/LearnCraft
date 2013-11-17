@@ -96,8 +96,16 @@ audio {
 	margin: 10px 0;
 }
 
-#alternativecont {
+#alternatives {
     display: none;
+    margin: 15px 0 10px;
+    font-size: 14px;
+}
+
+#alternativecont {
+    display: inline;
+    font-size: 14px;
+    padding: 3px;
 }
 
 a#speakbutton, a#submitbutton, #listeningmsg {
