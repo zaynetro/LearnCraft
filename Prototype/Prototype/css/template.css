@@ -63,8 +63,8 @@ audio {
 	text-align: center;
 	width: 303px;
     margin: 0 auto;
-	padding: 67px 0 87px;
-    background: url("/design/cloud.png") no-repeat top center;
+	padding: 57px 0 97px;
+    background: url("/design/cloud2.png") no-repeat center center;
 	font-size: 25px;
     animation: fly 100s linear infinite;
     transform: translate(0, 0);

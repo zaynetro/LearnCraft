@@ -87,6 +87,7 @@
     <Content Include="css\template.css" />
     <Content Include="default.html" />
     <Content Include="design\cloud.png" />
+    <Content Include="design\cloud2.png" />
     <Content Include="design\listening.png" />
     <Content Include="design\microphone.png" />
     <Content Include="design\rollovercloud.png" />
