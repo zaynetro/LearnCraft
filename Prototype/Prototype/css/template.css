@@ -7,7 +7,6 @@
 }
 
 a {
-    cursor: pointer;
 	color: #000;
 	text-decoration: none;
 }
@@ -16,12 +15,23 @@ a:hover {
 	text-decoration: underline;
 }
 
+a.notworking {
+    pointer-events: none;
+    cursor: default; 
+}
+
 audio {
 	visibility: hidden;
+    height: 1px;
 }
 
 .mainpage h1 {
 	margin: 20px 0 10px 20px;
+}
+
+.mainpage #games {
+    width: 200px;
+    margin: 20px auto;
 }
 
 .mainpage a {
@@ -30,7 +40,6 @@ audio {
 	width: 200px;
 	padding: 7px 0;
 	font-size: 18px;
-	margin: 0 auto;
 	background-color: #ddd;
 	text-decoration: none;
 }
@@ -43,6 +52,10 @@ audio {
 	padding: 10px 15px;
 	font-size: 15px;
 	background-color: #eee;
+}
+
+.learningblock {
+	margin-bottom: 30px;
 }
 
 .picturepanel {
@@ -79,20 +92,42 @@ audio {
 	width: 100px;
 }
 
-.infopanel .submit {
-	margin: 20px 0 0;
+.infopanel .speak {
+	margin: 10px 0;
 }
 
-a#submitbutton {
+#alternativecont {
+    display: none;
+}
+
+a#speakbutton, a#submitbutton, #listeningmsg {
 	display: block;
 	padding: 7px 0;
 	text-align: center;
 	text-decoration: none;
-	background-color: #ccc;
+}
+
+a#speakbutton {
+	color: #fff;
+	background: #DB3535 url("../design/microphone.png") no-repeat left center;
+}
+
+a#speakbutton:hover {
+	background-color: #C91212;
+}
+
+#listeningmsg {
+    display: none;
+    background: #DBE60B url("../design/listening.png") no-repeat left center;
+}
+
+a#submitbutton {
+	color: #fff;
+	background-color: #189E33;
 }
 
 a#submitbutton:hover {
-	background-color: #aaa;
+	background-color: #02781A;
 }
 
 #results {

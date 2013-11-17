@@ -76,6 +76,7 @@
     <Content Include="audio\horses.mp3" />
     <Content Include="audio\house.mp3" />
     <Content Include="audio\key.mp3" />
+    <Content Include="audio\meat.mp3" />
     <Content Include="audio\nail.mp3" />
     <Content Include="audio\nosound.mp3" />
     <Content Include="audio\pen.mp3" />
@@ -85,6 +86,9 @@
     <Content Include="audio\tree.mp3" />
     <Content Include="css\template.css" />
     <Content Include="default.html" />
+    <Content Include="design\listening.png" />
+    <Content Include="design\microphone.png" />
+    <Content Include="design\stop.png" />
     <Content Include="images\apple.jpg" />
     <Content Include="images\bee.jpg" />
     <Content Include="images\bird.jpg" />
@@ -125,6 +129,8 @@
     <None Include="Prototype_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <SDKReference Include="Bing.Speech, Version=1.0" />
+    <SDKReference Include="Microsoft.VCLibs, version=12.0" />
     <SDKReference Include="Microsoft.WinJS.2.0, Version=1.0" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
